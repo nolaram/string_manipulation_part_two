@@ -11,3 +11,4 @@ swap_case = [word[0].upper() + word[1:].lower() for word in user_name]
 add_space = " ".join(swap_case)
 
 # print output
+print(add_space)
