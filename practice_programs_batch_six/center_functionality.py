@@ -2,6 +2,8 @@
 user_name = str(input("Enter your name: "))
 
 # assign a value for the desired space
+space = 10
+
 # seperate the space
 # add the space 
 # print output
