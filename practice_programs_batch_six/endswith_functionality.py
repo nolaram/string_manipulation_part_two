@@ -7,6 +7,8 @@ ends_with = "lon"
 position = user_name.find(ends_with)
 
 # if name ends with lon
+if position != -1 and position == len(user_name) - len(ends_with):
     # print True
+    print("True")
 # if not
     # print False
