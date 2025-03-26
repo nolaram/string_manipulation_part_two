@@ -11,4 +11,6 @@ if position != -1 and position == len(user_name) - len(ends_with):
     # print True
     print("True")
 # if not
+else:
     # print False
+    print("False")
