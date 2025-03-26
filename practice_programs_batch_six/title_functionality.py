@@ -8,4 +8,6 @@ user_name = user_name.split()
 swap_case = [word[0].upper() + word[1:].lower() for word in user_name]
 
 # add space
+add_space = " ".join(swap_case)
+
 # print output
