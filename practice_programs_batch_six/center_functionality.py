@@ -13,3 +13,4 @@ right_space = white_space - left_space
 add_space = " " * left_space + user_name + " " * right_space
 
 # print output
+print(f'"{add_space}"')
