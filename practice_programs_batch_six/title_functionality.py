@@ -3,3 +3,9 @@ user_name = str(input("Enter your name: "))
 
 # convert casing
 words = [user_name[0]]
+
+for char in user_name [1:]:
+    if char.isupper():
+        words.append(" " + char)
+    else:
+        words[-1] += char
