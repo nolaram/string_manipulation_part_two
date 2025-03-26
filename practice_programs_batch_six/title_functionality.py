@@ -12,3 +12,6 @@ for char in user_name [1:]:
 
 # add space and capitalize
 add_space = " ".join(word.capitalize() for word in words)
+
+# print the output
+print(add_space)
