@@ -11,3 +11,4 @@ for char in user_name:
         lower_case += char
 
 # print the output
+print(lower_case)
