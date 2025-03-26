@@ -10,4 +10,6 @@ left_space = white_space // 2
 right_space = white_space - left_space
 
 # add the space 
+add_space = " " * left_space + user_name + " " * right_space
+
 # print output
