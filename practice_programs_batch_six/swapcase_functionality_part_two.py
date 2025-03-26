@@ -13,3 +13,4 @@ for char in user_name:
         swap_case += char
 
 # print the output
+print(swap_case)
