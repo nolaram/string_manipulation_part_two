@@ -13,5 +13,7 @@ for char in user_name:
 if upper == True:
     # print True
     print("True")
-# if not 
+# if not
+else:
     # print False
+    print("False")
