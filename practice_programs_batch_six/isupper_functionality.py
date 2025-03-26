@@ -8,8 +8,10 @@ for char in user_name:
     if "a" <= char <= "z":
         upper = False
         break
-    
+
 # if all uppercase
+if upper == True:
     # print True
+    print("True")
 # if not 
     # print False
