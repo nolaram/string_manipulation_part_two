@@ -9,3 +9,6 @@ for char in user_name [1:]:
         words.append(" " + char)
     else:
         words[-1] += char
+
+# add space and capitalize
+add_space = " ".join(word.capitalize() for word in words)
