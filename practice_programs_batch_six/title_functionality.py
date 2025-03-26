@@ -5,5 +5,7 @@ user_name = str(input("Enter your name: "))
 user_name = user_name.split()
 
 # capitalize the words
+swap_case = [word[0].upper() + word[1:].lower() for word in user_name]
+
 # add space
 # print output
