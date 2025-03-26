@@ -6,6 +6,8 @@ if user_name.startswith("Mar"):
     user_name = user_name.replace("Mar", "")
     # print the output
     print(user_name)
-    
+
 # if not
+else:
     # print the output
+    print(user_name)
