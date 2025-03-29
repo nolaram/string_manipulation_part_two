@@ -10,5 +10,8 @@ count = 0
 
 # for loop to check every character in input
 for character in user_name:
+    if character == letter:
         # increase count by 1 every time the character matches the variable
+        count += 1
+        
 # print the output
