@@ -8,6 +8,11 @@ letter = "a"
 position = -1
 
 # look for the position where the variable first appears
+for character in range(len(user_name)):
+    if user_name[character] == letter:
+        position = character
+        break
+    
 # if the letter is found
     # print the position
 # if not
