@@ -13,4 +13,6 @@ if position == 0:
     print("True")
 
 # if not
+else:
     # print false
+    print("False")
