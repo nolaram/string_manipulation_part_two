@@ -11,3 +11,4 @@ else:
     output = ""
 
 # print the output
+print(output)
