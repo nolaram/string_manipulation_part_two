@@ -1,4 +1,6 @@
 # ask user for his/her name
+user_name = str(input("Enter your name: "))
+
 # set the variable with a value "a"
 # check how many times the variable appears
 # set count to 0
