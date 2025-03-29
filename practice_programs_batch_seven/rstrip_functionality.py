@@ -2,4 +2,6 @@
 user_name = str(input("Enter your name: "))
 
 # remove the spaces without rstrip
+user_name = user_name.replace(" ", "")
+
 # print the output
