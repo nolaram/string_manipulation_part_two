@@ -5,6 +5,8 @@ user_name = str(input("Enter your name: "))
 starts_with = "Mar"
 
 # find the prefix in the input
+position = starts_with.find(user_name)
+
 # if the input startswith the variable given
     # print true
 # if not
