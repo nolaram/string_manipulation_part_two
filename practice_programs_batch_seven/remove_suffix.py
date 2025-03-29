@@ -8,6 +8,8 @@ if user_name.endswith("lon"):
     user_name = user_name.replace("lon", "")
     # print the name
     print(user_name)
-    
+
 # if no
+else:
     # print the input without changes
+    print(user_name)
