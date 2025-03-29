@@ -10,7 +10,10 @@ for char in user_name:
     if "a" <= char <= "z":
         # change it to upper case
         upper_case += chr(ord(char) - 32)
-        
+
     # if already upper case
+    else:
         # no changes
+        upper_case += char
+
 # print the output
