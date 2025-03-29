@@ -12,8 +12,11 @@ for character in range(len(user_name)):
     if user_name[character] == letter:
         position = character
         break
-    
+
 # if the letter is found
+if position != -1:
     # print the position
+    print(position)
+    
 # if not
     # print none
