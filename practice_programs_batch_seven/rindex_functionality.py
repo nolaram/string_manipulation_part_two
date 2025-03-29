@@ -5,6 +5,8 @@ user_name = str(input("Enter your name: "))
 letter = "a"
 
 # set position to -1 
+position = -1
+
 # look for the position
 # if found
     # print the position
