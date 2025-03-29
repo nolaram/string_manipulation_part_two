@@ -17,6 +17,8 @@ for character in range(len(user_name) - 1, -1, -1):
 if position != -1:
     # print the position
     print(position)
-    
+
 # if not 
+else:
     # print none
+    print("The variable does not exist in the input")
