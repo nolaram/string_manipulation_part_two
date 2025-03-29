@@ -14,6 +14,9 @@ for character in user_name:
         break
 
 # if all lower case
+if lower == True:
     # print true
+    print("True")
+    
 # if not
     # print false
