@@ -5,3 +5,4 @@ user_name = str(input("Enter your name: "))
 user_name = user_name.replace(" ", "")
 
 # print the output
+print(f'"{user_name}"')
