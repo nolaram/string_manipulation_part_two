@@ -11,3 +11,4 @@ space = " " * (value - len(user_name)) + user_name
 zfill = space.replace(" ", "0")
 
 # print the output
+print(zfill)
