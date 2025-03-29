@@ -6,4 +6,9 @@ sentence = user_name.split()
 upper = []
 
 # convert first letter to uppercase and the rest to lower letters
+for word in sentence:
+    if word:
+        upper.append(word[0].upper() + word[1:].lower())
+        output = ''.join(upper)
+        
 # print the output
