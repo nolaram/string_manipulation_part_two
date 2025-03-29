@@ -6,6 +6,8 @@ user_name = str(input("Enter your name: "))
 if user_name.endswith("lon"):
     # replace the suffix with blank
     user_name = user_name.replace("lon", "")
-        # print the name
+    # print the name
+    print(user_name)
+    
 # if no
     # print the input without changes
