@@ -5,6 +5,7 @@ user_name = str(input("Enter your name: "))
 upper_case = ""
 
 # for loop to check every character in the input
+for char in user_name:
     # if the character is lower case
         # change it to upper case
     # if already upper case
