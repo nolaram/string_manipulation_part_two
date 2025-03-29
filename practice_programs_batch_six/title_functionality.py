@@ -10,5 +10,6 @@ for word in sentence:
     if word:
         upper.append(word[0].upper() + word[1:].lower())
         output = ''.join(upper)
-        
+
 # print the output
+print(output)
