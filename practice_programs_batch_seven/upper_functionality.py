@@ -7,7 +7,10 @@ upper_case = ""
 # for loop to check every character in the input
 for char in user_name:
     # if the character is lower case
+    if "a" <= char <= "z":
         # change it to upper case
+        upper_case += chr(ord(char) - 32)
+        
     # if already upper case
         # no changes
 # print the output
