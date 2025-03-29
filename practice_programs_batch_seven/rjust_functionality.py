@@ -8,3 +8,4 @@ space = 10
 add_space = user_name + " " * space
 
 # print the output
+print(f"'{add_space}'")
