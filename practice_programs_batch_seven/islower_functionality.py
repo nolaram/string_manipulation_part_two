@@ -17,6 +17,8 @@ for character in user_name:
 if lower == True:
     # print true
     print("True")
-    
+
 # if not
+else:
     # print false
+    print("False")
