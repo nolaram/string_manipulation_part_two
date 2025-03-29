@@ -5,6 +5,7 @@ user_name = str(input("Enter your name: "))
 lower = True
 
 # for loop to check every character
+for char in user_name:
     # if one character is upper case
         # change the variable into false
         # stop the program
