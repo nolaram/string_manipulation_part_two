@@ -13,5 +13,6 @@ for character in user_name:
     if character == letter:
         # increase count by 1 every time the character matches the variable
         count += 1
-        
+
 # print the output
+print(count)
