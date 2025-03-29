@@ -17,3 +17,4 @@ for char in user_name:
         upper_case += char
 
 # print the output
+print(upper_case)
